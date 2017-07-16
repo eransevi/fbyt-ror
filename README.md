@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+FBYT is a simple web app for converting YouTube videos that are posted on facebook to a proper YouYube playlist.
+The application was built using Rails.
 
-Things you may want to cover:
+You can find the application at: fbyt-ror.herokuapp.com
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
