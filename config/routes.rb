@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
+  get 'facebook/login'
 
-  get 'static_pages/about'
+  get 'facebook/videos'
+
+  get 'home',   to: 'static_pages#home'
+  get 'about',  to: 'static_pages#about'
+
+  get 'fb',     to: 'facebook#login'
 
   root 'static_pages#home'
-  get 'static_pages/about'
 end
